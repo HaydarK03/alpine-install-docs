@@ -146,6 +146,10 @@ none
 ```
 sdb
 ```
+#####  how would you like to use it 
+```
+data
+```
 #####  enter where to store configs 
 ```
 none
