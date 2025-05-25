@@ -33,13 +33,13 @@ mkfs.ext4 -O ^has_journal,^64bit /dev/sdXY
 ##### create mount point
 
 ```
-mkdir /media/sdb1
+mkdir /media/sda2
 ```
 
 ##### edit fstab
 
 ```
-echo "/dev/sdb1 /media/sdXY ext4 noatime,ro 0 0" >> /etc/fstab
+echo "/dev/sda2 /media/sda2 ext4 noatime,ro 0 0" >> /etc/fstab
 ```
 
 ##### mount partition
@@ -152,7 +152,7 @@ none
 ```
 ##### enter apk cache directory
 ```
-/media/sdb1/cache
+/media/sda2/cache
 ```
 
 ### after install
@@ -164,19 +164,13 @@ vim /etc/lbu/lbu.conf
 ```
 
 ```
-LBU_MEDIA=sdb1
+LBU_MEDIA=sda2
 ```
 
 ```
-setup-apkcache /media/sdb1/cache
+setup-apkcache /media/sda2/cache
 ```
 
 ```
 lbu commit
 ```
-
-
-
-deskripsi
-
-percobaan menggunakan 
