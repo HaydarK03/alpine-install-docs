@@ -6,10 +6,10 @@
 cfdisk /dev/sdb
 ```
 
-| device    | size type |
-| --------- | --------- |
-| /dev/sdb1 | 3.6G      |
-| /dev/sdb2 | 25G       |
+| device    | size type | for      |
+| --------- | --------- |--------- |
+| /dev/sdb1 | 3.6G      | installer|
+| /dev/sdb2 | 25G       | config   |
 
 ##### create installer
 ```
