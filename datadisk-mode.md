@@ -25,7 +25,7 @@ apk add e2fsprogs cfdisk lsblk
 ##### format diskless partition
 
 ```
-mkfs.ext4 -O ^has_journal,^64bit /dev/sdXY
+mkfs.ext4 -O ^has_journal,^64bit /dev/sda2
 ```
 
 *note: if /dev/sdXY does not exists please reboot*
