@@ -124,8 +124,17 @@ uncomment
 https://dl-cdn.alpinelinux.org/alpine/v3.18/community
 ```
 
+```
+apk update
+```
+
+```
+apk upgrade
+```
+
 ##### package
 
 ```
 apk add ufw 
 ```
+
