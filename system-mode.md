@@ -110,3 +110,9 @@ none
 ```
 /media/sdb1/cache
 ```
+
+##### package
+
+```
+apk add ufw 
+```
