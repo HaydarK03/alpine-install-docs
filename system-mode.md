@@ -1,6 +1,10 @@
 ### install alpine linux
 
 ```
+apk add e2fsprogs cfdisk lsblk
+```
+
+```
 setup-alpine
 ```
 ##### keyboard layout
@@ -109,6 +113,15 @@ none
 ##### enter apk cache directory
 ```
 /media/sdb1/cache
+```
+
+##### enable apk repository
+```
+vim /etc/apk/repository
+```
+uncomment
+```
+https://dl-cdn.alpinelinux.org/alpine/v3.18/community
 ```
 
 ##### package
