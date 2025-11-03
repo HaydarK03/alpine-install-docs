@@ -1,29 +1,19 @@
 ### install alpine linux
 
 ##### connect with ssh
-# Install OpenSSH server
+Install OpenSSH server
 ```
 apk add openssh
 ```
 
-# Enable SSH service to start on boot
+Enable SSH service to start on boot
 ```
 rc-update add sshd
 ```
 
-# Start the SSH service
+Start the SSH service
 ```
 rc-service sshd start
-```
-
-# (Optional) Configure SSH for security (e.g., disable password auth for root)
-```
-vi /etc/ssh/sshd_config 
-```
-
-# After editing, restart the service:
-```
-rc-service sshd restart
 ```
 
 ##### pre-instalation
